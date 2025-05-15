@@ -1,4 +1,4 @@
-[bits32]
-[extern main]
-call main
-jmp $
+BITS 32
+EXTERN main
+CALL main
+JMP $
